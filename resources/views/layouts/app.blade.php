@@ -1,11 +1,11 @@
-@include('layouts.header')
+@include('inc.header')
 
 
 
     <div class="grid-container">
 
       <div class="top-nav">
-        @include('layouts.topnav')
+        @include('inc.topnav')
         @yield('top-content')
       </div>
 
@@ -14,11 +14,11 @@
       </div>
 
       <div class="side-nav">
-        @include('layouts.side')
+        @include('inc.side')
         @yield('side-content')
       </div>
 
     </div>
 
-  
-@include('layouts.footer')
+
+@include('inc.footer')
