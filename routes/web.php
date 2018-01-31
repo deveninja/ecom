@@ -38,6 +38,10 @@
 
 Route::get('/', 'PagesController@index');
 Route::get('/about', 'PagesController@about');
-Route::get('/Portfolio', 'PagesController@portfolio');
+Route::get('/portfolio', 'PagesController@portfolio');
 Route::get('/contact', 'PagesController@contact');
 Route::get('/products', 'PagesController@products');
+
+
+
+Route::resource('posts', 'PostsController');

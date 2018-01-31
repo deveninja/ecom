@@ -30,4 +30,5 @@ class PagesController extends Controller
       $title = "Prodcts Page";
       return view('pages.products')->with('title', $title);
     }
+
 }
