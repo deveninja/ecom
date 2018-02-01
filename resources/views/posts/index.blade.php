@@ -14,4 +14,8 @@
   @else
     <p>No posts found</p>
   @endif
+{{--
+  @foreach ($data as $name)
+      {{$name}}
+  @endforeach --}}
 @endsection
